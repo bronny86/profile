@@ -4,7 +4,7 @@ main > img {
         height: 50vh;
         border-radius: 60%;
         margin: 2em;
-        background: linear-gradient(220.55deg, #FFED46 0%, #FF7EC7 100%);
+        background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);
         color: var(--black);
         object-fit: cover;
     }
