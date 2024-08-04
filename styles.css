@@ -1,0 +1,226 @@
+:root {
+
+
+/* CSS
+} HEX */
+--baby-powder: #fffffaff;
+--black: #000103ff;
+--raw-umber: #8c6239ff;
+--vista-blue: #7f95d1ff;
+--tickle-me-pink: #ff82a9ff;
+--lighter-pink: #fce5ec;
+
+}
+
+* {margin: 0;}
+
+.poppins-thin {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+      }
+      
+      .poppins-extralight {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: normal;
+      }
+      
+      .poppins-light {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+      }
+      
+      .poppins-regular {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+      
+      .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+      
+      .poppins-semibold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: normal;
+      }
+      
+      .poppins-bold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: normal;
+      }
+      
+      .poppins-extrabold {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: normal;
+      }
+      
+      .poppins-black {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: normal;
+      }
+      
+      .poppins-thin-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 100;
+        font-style: italic;
+      }
+      
+      .poppins-extralight-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 200;
+        font-style: italic;
+      }
+      
+      .poppins-light-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: italic;
+      }
+      
+      .poppins-regular-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-style: italic;
+      }
+      
+      .poppins-medium-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: italic;
+      }
+      
+      .poppins-semibold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 600;
+        font-style: italic;
+      }
+      
+      .poppins-bold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        font-style: italic;
+      }
+      
+      .poppins-extrabold-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 800;
+        font-style: italic;
+      }
+      
+      .poppins-black-italic {
+        font-family: "Poppins", sans-serif;
+        font-weight: 900;
+        font-style: italic;
+      }
+
+  /*styling for header nav bar, positioning of buttons, colors*/
+      
+
+header {
+    
+        
+        background-color: var(--tickle-me-pink);
+        height: 10dvh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+nav > a {
+
+            text-decoration: none;
+            background-color: var(--baby-powder);
+            color: var(--black);
+            padding: 0.25em;
+            border-radius: 0.5em;
+    }
+
+  /*hover effect so that when hover over nav bar button will change color*/
+
+nav > a:hover {
+
+        background-color: var(--vista-blue);
+}
+
+/*styling for main body*/
+
+body {
+    
+                display: flex;
+                flex-direction: column;
+                background: linear-gradient(220.55deg, #FFED46 0%, #FF7EC7 100%);
+                justify-content: center;
+                align-items: center;
+            }
+
+ /*styling for footer*/
+
+footer {
+    
+        background-color: var(--baby-powder);
+        height: 10dvh;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+}
+
+#social_links {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 1rem 0 1rem;
+    padding-top: 1rem;
+    border-top: 2px black solid;
+    margin-top:auto;
+}
+
+main {
+
+        width: 100dvw;
+        min-height: 80dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;}
+
+
+main  > * {
+
+        margin: 1em;
+
+}
+
+main > a {
+        margin: 0;
+}
+
+/*styling for back to top icon and link*/
+
+  .backtotop_navigation {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                padding: 2rem 1.5rem;
+            }
+            

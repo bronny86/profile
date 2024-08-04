@@ -1,0 +1,108 @@
+:root {
+
+
+    /* CSS HEX */
+    --baby-powder: #fffffaff;
+    --black: #000103ff;
+    --raw-umber: #8c6239ff;
+    --vista-blue: #7f95d1ff;
+    --tickle-me-pink: #ff82a9ff;
+    --lighter-pink: #fce5ec;
+    }
+    
+    * {margin: 0;}
+    
+    .poppins-medium {
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-style: normal;
+      }
+    
+
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+    background-color: transparent;
+    width: 300px;
+    height: 300px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-card-front, .flip-card-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side (fallback if image is missing) */
+  .flip-card-front {
+    background-color: var(--baby-powder);
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-card-back {
+    background-color: var(--vista-blue);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+  .main > img {
+
+    height: 20dvh;
+    object-fit: cover;
+  }
+
+  .flip-card {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 1em;
+    margin: 2em;
+    padding: 1em;
+  }
+
+  .contentRow {
+    display: flex;
+    flex-direction: column;
+}
+
+/*Desktop styling */
+
+@media screen and (min-width: 600px)  {
+
+    .contentRow {
+
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+
+
+                }
+
+    .flip-card {
+            width: 30dvw;
+            margin: 1em;
+    }
+}
