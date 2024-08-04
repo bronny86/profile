@@ -161,8 +161,7 @@ body {
     
                 display: flex;
                 flex-direction: column;
-                background: linear-gradient(220.55deg, #FFF500 0%, #FF00B8 100%);
-                justify-content: center;
+                background: linear-gradient(220.55deg, #FFED46 0%, #FF7EC7 100%);
                 align-items: center;
             }
 
